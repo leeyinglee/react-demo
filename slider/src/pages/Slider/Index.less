@@ -1,0 +1,28 @@
+.Demo-content {
+  padding: 30px 50px;
+  height: 100%;
+  overflow: auto;
+}
+h4 {
+  width: 700px;
+  margin: 30px auto;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--grey);
+  .Icon-fresh {
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(@/assets/icons/refresh.png);
+    background-size: cover;
+  }
+}
+.Demo-list {
+  float: left;
+  width: 696px;
+  min-width: 696px;
+  height: 205px;
+  display: grid;
+  grid-template-columns: repeat(3, calc(33% - 5px));
+  grid-gap: 10px calc(1% + 4px);
+}
